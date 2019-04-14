@@ -14,6 +14,7 @@
 		331DE9A022635DB8004D76FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331DE99E22635DB8004D76FE /* LaunchScreen.storyboard */; };
 		331DE9AB22635DB8004D76FE /* loginPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331DE9AA22635DB8004D76FE /* loginPageTests.swift */; };
 		331DE9B622635DB8004D76FE /* loginPageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331DE9B522635DB8004D76FE /* loginPageUITests.swift */; };
+		331DE9C522636484004D76FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331DE9C422636484004D76FE /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		331DE9B122635DB8004D76FE /* loginPageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginPageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		331DE9B522635DB8004D76FE /* loginPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPageUITests.swift; sourceTree = "<group>"; };
 		331DE9B722635DB8004D76FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		331DE9C422636484004D76FE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		331DE99422635DB6004D76FE /* loginPage */ = {
 			isa = PBXGroup;
 			children = (
+				331DE9C32263645F004D76FE /* Utils */,
 				331DE99522635DB6004D76FE /* AppDelegate.swift */,
 				331DE99722635DB6004D76FE /* ViewController.swift */,
 				331DE99922635DB6004D76FE /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				331DE9B722635DB8004D76FE /* Info.plist */,
 			);
 			path = loginPageUITests;
+			sourceTree = "<group>";
+		};
+		331DE9C32263645F004D76FE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				331DE9C422636484004D76FE /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			files = (
 				331DE99822635DB6004D76FE /* ViewController.swift in Sources */,
 				331DE99622635DB6004D76FE /* AppDelegate.swift in Sources */,
+				331DE9C522636484004D76FE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
